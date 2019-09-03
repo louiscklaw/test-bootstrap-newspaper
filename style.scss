@@ -142,3 +142,10 @@ footer {
 .col-3 {
     background-color: blue;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
