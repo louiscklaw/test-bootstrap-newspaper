@@ -1,0 +1,144 @@
+$color1 : #00f;
+$color2 : #f00;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: $color2;
+    background-color: $color1;
+    padding: 0.5em;
+}
+
+// for mega menu
+.megamenu {
+    position: static;
+}
+
+.megamenu .dropdown-menu {
+    background: none;
+    border: none;
+    width: 100%;
+}
+
+body {
+    /* background: #eaafc8; */
+    /* background: -webkit-linear-gradient(to right, #eaafc8, #654ea3); */
+    /* background: linear-gradient(to right, #eaafc8, #654ea3); */
+    min-height: 100vh;
+}
+
+code {
+    color: #745eb1;
+    background: #fff;
+    padding: 0.1rem 0.2rem;
+    border-radius: 0.2rem;
+}
+
+p{
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+section:nth-child(3){
+    margin-top: 10px;
+}
+
+.text-uppercase {
+    letter-spacing: 0.08em;
+}
+
+.col-6 {
+
+}
+
+.post-img img {
+    max-width: 100%;
+}
+
+.post-body {
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+.post-type-1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    .post-header {
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    .post-category {
+        text-decoration-color: green;
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+    .last-update{
+        text-align: right;
+    }
+}
+
+.post-type-2 {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    // background-color: grey;
+    .post-header {
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    .post-category {
+        text-decoration-color: green;
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+    .last-update{
+        text-align: right;
+    }
+}
+
+.post-type-3 {
+    padding-top: 10px;
+    border-bottom: 1px solid grey;
+
+    .col-4  {
+        padding-right:2px;
+    }
+
+    .col-8 {
+        padding-left : 2px;
+    }
+
+    h3 {
+        color: blue;
+        font-size: 1em;
+    }
+    .post-category{
+        color: red;
+        font-size: 1em;
+        padding-top:0px;
+        padding-bottom:0px;
+
+    }
+
+    img {
+        max-width: 100%;
+        padding-left:0px;
+        padding-right:3px;
+    }
+
+    .last-update{
+        text-align: right;
+    }
+}
+
+footer {
+    background-color: #02031C;
+    color:white;
+}
+
+.col-3 {
+    background-color: blue;
+}
