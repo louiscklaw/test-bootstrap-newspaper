@@ -142,6 +142,10 @@ section:nth-child(3) {
   text-align: center;
 }
 
+.post-news-body {
+  padding: 1em, 1em, 1em, 1em;
+}
+
 footer {
   background-color: #02031C;
   color: white;
@@ -156,6 +160,21 @@ footer {
   top: 0;
   width: 100%;
   z-index: 1;
+}
+
+.mt-80 {
+  margin-top:80px;
+}
+
+.mb-80{
+  margin-bottom: 80px;
+}
+
+.footer-area .footer-widget-area .list li a
+{
+  display : block;
+  padding: 5px 0;
+  color: rgba(255,255,255,.5);
 }
 
 /*# sourceMappingURL=style.css.map */

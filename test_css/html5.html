@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .lvl1_button {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background-color: greenyellow;
+            /* position: absolute; */
+            float: left;
+        }
+
+        .lvl2_button {
+            list-style: none;
+            background-color: violet;
+            /* display: relative; */
+            /* position:relative; */
+
+            width: 100px;
+            height: 50px;
+
+        }
+
+        .menu {
+            background-color: teal;
+            height: 100px;
+            top: 0px;
+        }
+
+        .dropdown {
+            position: relative;
+        }
+
+        .dropdown-content {
+            position: absolute;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="menu">
+            <div class="lvl1_button">1</div>
+            <div class="dropdown">
+                <div class="lvl1_button">2
+                    <div class="dropdown-content">
+                        <div class="lvl2_button">2.1</div>
+                    </div>
+                </div>
+            </div>
+            <div class="lvl1_button">3</div>
+        </div>
+    </div>
+
+</body>
+
+</html>

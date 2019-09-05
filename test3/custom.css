@@ -1,0 +1,30 @@
+/* start of desktop styles */
+
+@media screen and (max-width: 991px) {
+
+    /* start of large tablet styles */
+    .co_logo_on_desktop {
+        display: block;
+    }
+
+    .co_logo_on_mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /* start of medium tablet styles */
+
+}
+
+@media screen and (max-width: 479px) {
+
+    /* start of phone styles */
+    .co_logo_on_desktop {
+        display: none;
+    }
+
+    .co_logo_on_mobile {
+        display: block;
+    }
+}
